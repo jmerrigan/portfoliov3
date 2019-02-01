@@ -54,3 +54,27 @@ p {
  color: #FA7268;   
 }
 
+@media screen and (max-width: 660px) {
+    #verticalLine {
+        left: 20%;
+        height: 300px;
+    }
+
+    #horizontalLine {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 1.5em
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-left: 5.5em;
+    }
+    
+    #linksToReference {
+        margin-top: 11em;
+        width: 310px;
+    }
+}
