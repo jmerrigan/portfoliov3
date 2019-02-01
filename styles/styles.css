@@ -1,0 +1,56 @@
+body {
+    background: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-left: 1em;
+    letter-spacing: 0.3em;
+}
+
+
+p {
+    width: 300px;
+    margin-left:4.5em;
+    margin-top: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#verticalLine {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: 350px;
+    border-left: 0.2em solid #FA7268;
+    color: white;
+}
+
+#horizontalLine {
+    position: absolute;
+    margin-top: 0.2em;
+    margin-left: -5em;
+    width: 300px;
+    border-top: 0.2em solid #FA7268;
+}
+
+#linksToReference {
+    position: absolute;
+    display: flex;
+    margin-top: 9em;
+    margin-left: 2.3em;
+    width: 400px;
+    justify-content: space-between;
+
+}
+
+#linksToReference a {
+    text-decoration: none;
+    color: white;
+}
+
+#linksToReference a:hover {
+ color: #FA7268;   
+}
+
