@@ -86,7 +86,10 @@ p {
     margin-bottom: 10px;
     box-sizing: border-box;
     /* border: 1px solid rgba(0, 0, 0, .5); */
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
     border: none;
+    border-radius: 0;
     outline: none;
 }
 .sidebarContact input[type="submit"] {
