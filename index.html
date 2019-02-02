@@ -8,28 +8,37 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
-    <script defer src="index.js"></script>
 </head>
 
 <body>
+    <div class="sidebarContact">
+        <h2>Contact Me</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Email" name="email">
+            <textarea placeholder="Message" name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
     <div id="verticalLine">
         <h1>J./MERRIGAN</h1>
         <div id="horizontalLine">
             <p>Hi I’m James, <br>
                   A full stack developer based in Melbourne, Australia.  🚀
             </p>
-            <div id="linksToReference">
+            <div class="linksToReference">
                     <a href="https://github.com/jmerrigan">GITHUB</a>
                     <a href="https://www.linkedin.com/in/merriganjames/">LINKEDIN</a>
                     <a>RESUME</a>
-                    <a>CONTACT</a>
+                    <a class="toggle">CONTACT</a>
                 </div>
         </div>
    
     </div>
     
 
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <script src="index.js" type="text/javascript"></script>
 </body>
 
 </html>
