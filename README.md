@@ -1,4 +1,4 @@
-## James Merrigan - Web Developer Site
+## James Merrigan - Web Developer Site 🚀
 
 A minimalistic portfolio site with links to my Github, Linkedin, Resume and a Contact form to get in touch. 
 
